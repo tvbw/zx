@@ -31794,10 +31794,17 @@
         "share_type": "115"
     },
     {
-        "share_index": "豆瓣电影Top250_12.65TB",
+        "share_index": "豆瓣电影Top250_ISO",
         "share_name": "豆瓣电影Top250_12.65TB",
         "share_id": "swz29ge3n8e",
         "share_pwd": "rae8",
+        "share_type": "115"
+    },
+    {
+        "share_index": "电影【120T】",
+        "share_name": "电影【120T】",
+        "share_id": "swz0yj63zhz",
+        "share_pwd": "1158",
         "share_type": "115"
     }
 ]
