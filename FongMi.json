@@ -100,6 +100,17 @@
       }
     },
     {
+      "key": "紙條搜",
+      "name": "紙條搜",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
       "key": "賤賤",
       "name": "賤賤",
       "type": 3,
