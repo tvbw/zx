@@ -31794,10 +31794,24 @@
         "share_type": "115"
     },
     {
-        "share_index": "豆瓣电影Top250_ISO",
-        "share_name": "豆瓣电影Top250_12.65TB",
+        "share_index": "原盘",
+        "share_name": "SGNB特效字幕4K原盘电影合集[1-338] 23.29TB",
+        "share_id": "swhn49o3hysr",
+        "share_pwd": "0000",
+        "share_type": "115"
+    },
+    {
+        "share_index": "豆瓣电影Top250",
+        "share_name": "豆瓣电影Top250_12.65TB_ISO",
         "share_id": "swz29ge3n8e",
         "share_pwd": "rae8",
+        "share_type": "115"
+    },
+    {
+        "share_index": "豆瓣电影Top250",
+        "share_name": "豆瓣电影Top250_4K_REMUX",
+        "share_id": "swz2fd83hsx",
+        "share_pwd": "g4a6",
         "share_type": "115"
     },
     {
