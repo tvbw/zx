@@ -7,7 +7,21 @@
 
 
 
-今日更新
+今日大更新
+1.youtube 支持登陆 解锁节点不支持播放（pc网页登陆油管后 找一个请求 获取请求头中x-Goog-visitor-id的值 填到youtube配置cookie）
+2.修复youtube 之前遗留bug
+
+
+
+
+1.修复youtube推送
+2.tg搜支持一次配置多个频道（参考FongMi.json）
+3.修复易搜（需配置cookie）
+4.更新singbox 下载cdn为https://ghp.ci
+
+
+
+
 1、兼容低版本安卓 部分网盘播放
 
 
