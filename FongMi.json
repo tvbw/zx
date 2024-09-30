@@ -49,7 +49,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "./peizhi.json",
-        "siteUrl": "https://labipan.com/",
+        "siteUrl": "http://labipan.com/",
         "filter": "./wogg.json"
       }
     },
