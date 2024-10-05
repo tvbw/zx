@@ -65,7 +65,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "./peizhi.json",
-        "siteUrl": "https://labipan.com/",
+        "siteUrl": "http://labipan.com/",
         "filter": "./wogg.json"
       }
     },
@@ -89,11 +89,22 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "你的服务器地址端口",
+        "siteUrl": "http://tgsou.seczh.com/",
         "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./peizhi.json"
       }
     },
+        {
+            "key": "lf_js_p2p",
+            "name": "磁力 | lf_p2p",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./js/lib/lf_p2p2_min.js",
+            "ext": "18+"
+        },
     {
       "key": "TgYunPan|本地",
       "name": "TgYunPan|本地",
@@ -220,6 +231,19 @@
             }
         },
         {
+            "key": "真心115网盘1",
+            "name": "真心115网盘1",
+            "type": 3,
+            "api": "csp_网盘集合",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "./peizhi.json",
+                "share": "./js/115网盘1.json"
+            }
+        },
+        {
             "key": "真心UC网盘",
             "name": "真心UC网盘",
             "type": 3,
@@ -245,6 +269,8 @@
                 "share": "./js/夸克网盘.json"
             }
         },
+
+
     {
       "key": "push_agent",
       "name": "推送",
