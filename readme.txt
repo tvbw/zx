@@ -1,3 +1,8 @@
+
+
+更多使用信息参阅https://t.me/juejijianghu 发布频道
+             https://t.me/juejijianghuchat 聊天频道 
+
 各网盘ck配置可以参考alist里的网盘添加
 
 配置"pwdRb115": "" 115安全删除密码后 会自动删除转的文件 空间大的留空就行 
@@ -6,6 +11,12 @@
 
 
 今日更新
+1.整理配置文件路径
+2.去除豆瓣js 改为java
+3.tgsou 兼容更多手机运行 运行日志在tv/my_tgoutput.log目录
+4.新增几个caiji源
+
+
 1.singbox和tgsou内核改为gitlab cdn下载 又快又稳
 
 

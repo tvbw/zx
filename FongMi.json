@@ -1,16 +1,7 @@
 {
   "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
   "sites": [
-    {
-      "key": "dr_豆瓣",
-      "name": "🔍豆瓣荐片(js)",
-      "type": 3,
-      "api": "./js/lib/drpy2.min.js",
-      "searchable": 2,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./js/douban.js"
-    },
+    {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"ext":"./json/douban.json"},
     {
       "key": "玩偶gg",
       "name": "玩偶gg",
@@ -19,9 +10,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "https://www.wogg.bf/",
-        "filter": "./wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -36,7 +27,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./bilibili.json",
+        "json": "./json/bilibili.json",
         "cookie": "qwewqddasdasd"
       }
     },
@@ -48,9 +39,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "http://labipan.com/",
-        "filter": "./wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -61,7 +52,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -75,7 +66,7 @@
       "ext": {
         "siteUrl": "http://127.0.0.1:9999",
         "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -88,7 +79,7 @@
       "switchable": 0,
       "ext": {
         "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -100,7 +91,7 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -113,7 +104,7 @@
       "switchable": 0,
       "ext": {
         "cookie": "",
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -124,7 +115,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -135,7 +126,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -150,8 +141,8 @@
         "ratio": 1.433
       },
       "ext": {
-        "commonConfig": "./peizhi.json",
-        "json": "./youtube.json",
+        "commonConfig": "./json/peizhi.json",
+        "json": "./json/youtube.json",
         "cookie": ""
       }
     },
@@ -173,8 +164,8 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json",
-        "share": "./网盘集合.json"
+        "commonConfig": "./json/peizhi.json",
+        "share": "./json/网盘集合.json"
       }
     },
     {
@@ -186,8 +177,130 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
+    },
+    {
+      "key": "360资源",
+      "name": "360资源-采集",
+      "type": 1,
+      "api": "https://360zy.com/api.php/seaxml/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ]
+    },
+    {
+      "key": "非凡",
+      "name": "非凡",
+      "type": 1,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ]
+    },
+    {
+      "key": "量子",
+      "name": "量子",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "体育",
+        "足球",
+        "篮球",
+        "网球",
+        "斯诺克"
+      ]
     }
   ]
 }
