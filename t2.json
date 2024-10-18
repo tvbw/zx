@@ -1,5 +1,55 @@
 {
   "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+  "lives": [
+    {
+      "name": "feiyang.allinone",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/tv.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.tptv",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/tptv.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.bililive",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/bililive.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.huyayqk",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/huyayqk.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.douyuyqk",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/douyuyqk.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.yylunbo",
+      "type": 0,
+      "url": "http://127.0.0.1:35455/yylunbo.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
   "sites": [
     {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"ext":"./json/douban.json"},
     {
@@ -14,7 +64,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./js/youtube1.json",
+        "json": "./json/youtube1.json",
         "cookie": ""
       }
     },
@@ -28,7 +78,7 @@
             "switchable": 0,
             "ext": {
                 "commonConfig": "./json/wogg.json",
-                "share": "./js/真心.json"
+                "share": "./json/真心.json"
             }
         },
         {
@@ -41,7 +91,7 @@
             "switchable": 0,
             "ext": {
                 "commonConfig": "./json/wogg.json",
-                "share": "./js/115网盘.json"
+                "share": "./json/115网盘.json"
             }
         },
         {
@@ -54,7 +104,7 @@
             "switchable": 0,
             "ext": {
                 "commonConfig": "./json/wogg.json",
-                "share": "./js/115网盘1.json"
+                "share": "./json/115网盘1.json"
             }
         },
         {
@@ -67,7 +117,7 @@
             "switchable": 0,
             "ext": {
                 "commonConfig": "./json/wogg.json",
-                "share": "./js/UC网盘.json"
+                "share": "./json/UC网盘.json"
             }
         },
         {
@@ -80,7 +130,7 @@
             "switchable": 0,
             "ext": {
                 "commonConfig": "./json/wogg.json",
-                "share": "./js/夸克网盘.json"
+                "share": "./json/夸克网盘.json"
             }
         },
         {
@@ -91,7 +141,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./js/lib/lf_p2p2_min.js",
+            "api": "./json/lib/lf_p2p2_min.js",
             "ext": "18+"
         },
 
