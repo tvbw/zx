@@ -51,12 +51,27 @@
     }
   ],
   "sites": [
-    {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1,
+      "key": "TgYunDouBanPan|服务器",
+      "name": "TgYunDouBanPan|服务器",
+      "type": 3,
+      "api": "csp_TgYunDouBanPan",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
       "ext": {
+        "siteUrl": "http://127.0.0.1:9999",
+        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
       }
     },
+
+//    {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1,
+//       "ext": {
+//         "commonConfig": "./json/peizhi.json",
+//         "filter": "./json/douban.json"
+//       }
+//     },
 
         {
             "key": "真心网盘",
@@ -208,8 +223,8 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "https://zx-tgs.601417.us.kg/",
-        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+        "siteUrl": "http://tgsou.seczh.com/",
+        "channelUsername": "wandang1,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./json/peizhi.json"
       }
     },
@@ -222,7 +237,7 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+        "channelUsername": "wandang1,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./json/peizhi.json"
       }
     },
