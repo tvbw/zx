@@ -48,7 +48,48 @@
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "Mytvsuper",
+      "type": 0,
+      "url": "https://heqiao.serv00.net/mytvfree.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "Hkdvb(月更)",
+      "type": 0,
+      "url": "https://live.hkdvb.com/hls/playlist.m3u?token=407713096862187",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "Yang(ipv6)",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "qingwen07",
+      "type": 0,
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/gang_ao_tai.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "YueChan(ipv6)",
+      "type": 0,
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
+
   ],
   "sites": [
     {
